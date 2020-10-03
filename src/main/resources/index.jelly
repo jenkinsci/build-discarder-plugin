@@ -1,0 +1,4 @@
+<?jelly escape-by-default='true'?>
+<div>
+	Adds a global build discarder that's possible to override with a project specific discarder.
+</div>
