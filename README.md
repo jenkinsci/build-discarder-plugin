@@ -1,4 +1,7 @@
-# jenkins-retention
+
+# Jenkins Build Discarder Plugin
+![Build](https://github.com/orjan/build-discarder/workflows/Build/badge.svg?branch=master)
+
 
 ## Introduction
 
