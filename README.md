@@ -6,9 +6,9 @@
 The build in [Specific Build Discarder](https://github.com/jenkinsci/jenkins/blob/449c5aced523a6e66fe3d6a804e5dbfd5c5c67c6/core/src/main/java/jenkins/model/SimpleGlobalBuildDiscarderStrategy.java)
 discards build independent of specific job discarders.
 
-This plugin introduces a new build discarder that will only be applicable if there's not
+This plugin introduces a new build discarder that will only be applicable if there's no
 job specific build discarder specified. This makes it possible to configure it with the
-standard log rotator have a tight retention policy. Then it's posssible to override the
+standard log rotator that have a tight retention policy. Then it's possible to override the
 default setting by creating job specific discarders.
 
 ## Getting started
@@ -29,6 +29,19 @@ unclassified:
             artifactNumToKeepStr: "5"
             daysToKeepStr: "100"
             numToKeepStr: "10"
+```
+
+## Override the settings with a job specific discarder
+Adding a [job specific discarder](https://stackoverflow.com/a/44155346) will
+make sure the `Default Build Discarder` is not applicable.
+```
+# Jenkinsfile
+pipeline {
+  options {
+    buildDiscarder(logRotator(numToKeepStr: '30', artifactNumToKeepStr: '30'))
+  }
+  ...
+}
 ```
 
 ## Contributing
