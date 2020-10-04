@@ -18,7 +18,7 @@
     <jenkins.version>2.235.1</jenkins.version>
     <java.level>8</java.level>
   </properties>
-  <name>Build Discarder</name>
+  <name>Build Discarder Plugin</name>
   <description>Adds a global build discarder that's possible to override with a project specific discarder.
   </description>
   <dependencyManagement>
