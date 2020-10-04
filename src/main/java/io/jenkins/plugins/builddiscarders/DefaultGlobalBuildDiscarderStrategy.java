@@ -45,7 +45,6 @@ public class DefaultGlobalBuildDiscarderStrategy extends GlobalBuildDiscarderStr
     public void apply(Job<?, ?> job) throws IOException, InterruptedException {
         if (discarder != null) {
             discarder.perform(job);
-            int j = 1;
         }
     }
 
