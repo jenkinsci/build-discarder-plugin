@@ -1,6 +1,7 @@
 
 # Jenkins Build Discarder Plugin
-![Build](https://github.com/orjan/build-discarder/workflows/Build/badge.svg?branch=master)
+![Github Build](https://github.com/jenkinci/build-discarder-plugin/workflows/Build/badge.svg?branch=master)
+[![Jenkins Build](https://ci.jenkins.io/job/Plugins/job/build-discarder-plugin/job/master/badge/icon)](https://ci.jenkins.io/job/Plugins/job/build-discarder-plugin/job/master/)
 
 ## Introduction
 The build in [Specific Build Discarder](https://github.com/jenkinsci/jenkins/blob/449c5aced523a6e66fe3d6a804e5dbfd5c5c67c6/core/src/main/java/jenkins/model/SimpleGlobalBuildDiscarderStrategy.java)
