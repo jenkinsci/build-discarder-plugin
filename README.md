@@ -1,6 +1,7 @@
 
 # Jenkins Build Discarder Plugin
-![Build](https://github.com/orjan/build-discarder/workflows/Build/badge.svg?branch=master)
+![Github Build](https://github.com/jenkinsci/build-discarder-plugin/workflows/Build/badge.svg?branch=master)
+[![Jenkins Build](https://ci.jenkins.io/job/Plugins/job/build-discarder-plugin/job/master/badge/icon)](https://ci.jenkins.io/job/Plugins/job/build-discarder-plugin/job/master/)
 
 ## Introduction
 The build in [Specific Build Discarder](https://github.com/jenkinsci/jenkins/blob/449c5aced523a6e66fe3d6a804e5dbfd5c5c67c6/core/src/main/java/jenkins/model/SimpleGlobalBuildDiscarderStrategy.java)
@@ -46,3 +47,6 @@ pipeline {
 
 ## Contributing
 See the default [contribution guidelines](https://github.com/jenkinsci/.github/blob/master/CONTRIBUTING.md) for Jenkins
+
+## Issue
+- [Jira](https://issues.jenkins-ci.org/issues/?filter=-1&jql=component%20%3D%20build-discarder-plugin%20)
