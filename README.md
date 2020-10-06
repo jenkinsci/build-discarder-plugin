@@ -1,6 +1,6 @@
 
 # Jenkins Build Discarder Plugin
-![Github Build](https://github.com/jenkinci/build-discarder-plugin/workflows/Build/badge.svg?branch=master)
+![Github Build](https://github.com/jenkinsci/build-discarder-plugin/workflows/Build/badge.svg?branch=master)
 [![Jenkins Build](https://ci.jenkins.io/job/Plugins/job/build-discarder-plugin/job/master/badge/icon)](https://ci.jenkins.io/job/Plugins/job/build-discarder-plugin/job/master/)
 
 ## Introduction
