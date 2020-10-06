@@ -46,3 +46,6 @@ pipeline {
 
 ## Contributing
 See the default [contribution guidelines](https://github.com/jenkinsci/.github/blob/master/CONTRIBUTING.md) for Jenkins
+
+## Issue
+- [Jira](https://issues.jenkins-ci.org/issues/?filter=-1&jql=component%20%3D%20build-discarder-plugin%20)
