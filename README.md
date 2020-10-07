@@ -3,7 +3,7 @@
 ![Github Build](https://github.com/jenkinsci/build-discarder-plugin/workflows/Build/badge.svg?branch=master)
 [![Jenkins Build](https://ci.jenkins.io/job/Plugins/job/build-discarder-plugin/job/master/badge/icon)](https://ci.jenkins.io/job/Plugins/job/build-discarder-plugin/job/master/)
 [![Jenkins Plugin](https://img.shields.io/jenkins/plugin/v/build-discarder.svg)](https://plugins.jenkins.io/build-discarder)
-[![GitHub release](https://img.shields.io/github/v/tag/jenkinsci/build-discarder-plugin.svg?label=changelog)](https://github.com/jenkinsci/build-discarder-plugin/releases/latest)
+[![GitHub release](https://img.shields.io/github/release/jenkinsci/build-discarder-plugin.svg?label=changelog)](https://github.com/jenkinsci/build-discarder-plugin/releases/latest)
 
 ## Introduction
 A global build discarder that's possible to override by adding a job
