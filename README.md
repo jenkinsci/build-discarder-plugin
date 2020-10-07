@@ -2,18 +2,16 @@
 # Jenkins Build Discarder Plugin
 ![Github Build](https://github.com/jenkinsci/build-discarder-plugin/workflows/Build/badge.svg?branch=master)
 [![Jenkins Build](https://ci.jenkins.io/job/Plugins/job/build-discarder-plugin/job/master/badge/icon)](https://ci.jenkins.io/job/Plugins/job/build-discarder-plugin/job/master/)
+[![Jenkins Plugin](https://img.shields.io/jenkins/plugin/v/build-discarder.svg)](https://plugins.jenkins.io/build-discarder)
+[![GitHub release](https://img.shields.io/github/v/tag/jenkinsci/build-discarder-plugin.svg?label=changelog)](https://github.com/jenkinsci/build-discarder-plugin/releases/latest)
 
 ## Introduction
-The build in [Specific Build Discarder](https://github.com/jenkinsci/jenkins/blob/449c5aced523a6e66fe3d6a804e5dbfd5c5c67c6/core/src/main/java/jenkins/model/SimpleGlobalBuildDiscarderStrategy.java)
-discards build independent of specific job discarders.
-
-This plugin introduces a new build discarder that will only be applicable if there's no
-job specific build discarder specified. This makes it possible to configure it with the
-standard log rotator that have a tight retention policy. Then it's possible to override the
-default setting by creating job specific discarders.
+A global build discarder that's possible to override by adding a job
+specific discarder. The goal is to be able to have a global sensible default, that's possible to override if needed.
 
 ## Getting started
-The `Default Build Discarder` is found under the `Manage Jenkins >> Configure System >> Global Build Discarders`
+The `Default Build Discarder` can be added here:   
+`Manage Jenkins >> Configure System >> Global Build Discarders`
 ![Alt text](docs/img/configure-default-discarder.png?raw=true "Title")
 
 ### Configuration as Code
@@ -44,6 +42,10 @@ pipeline {
   ...
 }
 ```
+
+## Background
+The build in [Specific Build Discarder](https://github.com/jenkinsci/jenkins/blob/449c5aced523a6e66fe3d6a804e5dbfd5c5c67c6/core/src/main/java/jenkins/model/SimpleGlobalBuildDiscarderStrategy.java)
+discards build independent of specific job discarders.
 
 ## Contributing
 See the default [contribution guidelines](https://github.com/jenkinsci/.github/blob/master/CONTRIBUTING.md) for Jenkins
