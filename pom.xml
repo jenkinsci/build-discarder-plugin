@@ -4,7 +4,7 @@
   <parent>
     <groupId>org.jenkins-ci.plugins</groupId>
     <artifactId>plugin</artifactId>
-    <version>4.4</version>
+    <version>4.16</version>
     <relativePath />
   </parent>
   <groupId>io.jenkins.plugins</groupId>
@@ -14,7 +14,7 @@
   <properties>
     <revision>0.0.2</revision>
     <changelist>-SNAPSHOT</changelist>
-    <jenkins.version>2.235.1</jenkins.version>
+    <jenkins.version>2.263.1</jenkins.version>
     <java.level>8</java.level>
   </properties>
   <name>Build Discarder Plugin</name>
@@ -24,8 +24,8 @@
     <dependencies>
       <dependency>
         <groupId>io.jenkins.tools.bom</groupId>
-        <artifactId>bom-2.235.x</artifactId>
-        <version>11</version>
+        <artifactId>bom-2.263.x</artifactId>
+        <version>26</version>
         <scope>import</scope>
         <type>pom</type>
       </dependency>
