@@ -49,3 +49,9 @@ discards build independent of specific job discarders.
 
 ## Contributing
 See the default [contribution guidelines](https://github.com/jenkinsci/.github/blob/master/CONTRIBUTING.md) for Jenkins
+
+### Local development
+Start Jenkins by running this command
+```
+mvn hpi:run
+```
