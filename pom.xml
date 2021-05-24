@@ -9,11 +9,10 @@
   </parent>
   <groupId>io.jenkins.plugins</groupId>
   <artifactId>build-discarder</artifactId>
-  <version>${revision}${changelist}</version>
+  <version>${changelist}</version>
   <packaging>hpi</packaging>
   <properties>
-    <revision>0.0.2</revision>
-    <changelist>-SNAPSHOT</changelist>
+    <changelist>999999-SNAPSHOT</changelist>
     <jenkins.version>2.263.1</jenkins.version>
     <java.level>8</java.level>
   </properties>
