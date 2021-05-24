@@ -1,7 +1,7 @@
 
 # Jenkins Build Discarder Plugin
-![Github Build](https://github.com/jenkinsci/build-discarder-plugin/workflows/Build/badge.svg?branch=master)
-[![Jenkins Build](https://ci.jenkins.io/job/Plugins/job/build-discarder-plugin/job/master/badge/icon)](https://ci.jenkins.io/job/Plugins/job/build-discarder-plugin/job/master/)
+[![Github Build](https://github.com/jenkinsci/build-discarder-plugin/actions/workflows/cd.yaml/badge.svg?branch=main)](https://github.com/jenkinsci/build-discarder-plugin/actions/workflows/cd.yaml)
+[![Jenkins Build](https://ci.jenkins.io/job/Plugins/job/build-discarder-plugin/job/main/badge/icon)](https://ci.jenkins.io/job/Plugins/job/build-discarder-plugin/job/main/)
 [![Jenkins Plugin](https://img.shields.io/jenkins/plugin/v/build-discarder.svg)](https://plugins.jenkins.io/build-discarder)
 [![GitHub release](https://img.shields.io/github/release/jenkinsci/build-discarder-plugin.svg?label=changelog)](https://github.com/jenkinsci/build-discarder-plugin/releases/latest)
 
