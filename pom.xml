@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>org.jenkins-ci.plugins</groupId>
@@ -13,7 +14,7 @@
   <packaging>hpi</packaging>
   <properties>
     <changelist>999999-SNAPSHOT</changelist>
-    <jenkins.version>2.263.1</jenkins.version>
+    <jenkins.version>2.303.1</jenkins.version>
     <java.level>8</java.level>
   </properties>
   <name>Build Discarder Plugin</name>
@@ -23,8 +24,8 @@
     <dependencies>
       <dependency>
         <groupId>io.jenkins.tools.bom</groupId>
-        <artifactId>bom-2.263.x</artifactId>
-        <version>937.v51fde92016ed</version>
+        <artifactId>bom-2.303.x</artifactId>
+        <version>1069.v4a8e43a79a40</version>
         <scope>import</scope>
         <type>pom</type>
       </dependency>
