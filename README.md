@@ -14,8 +14,10 @@ the two latest versions of Jenkins LTS.
 
 ## Getting started
 
-The `Default Build Discarder` can be added here:
-`Manage Jenkins >> Configure System >> Global Build Discarders`
+The `Default Build Discarder` can be added here:  
+
+`Manage Jenkins >> Configure System >> Global Build Discarders`  
+
 ![Alt text](docs/img/configure-default-discarder.png?raw=true "Title")
 
 ### Configuration as Code
@@ -53,17 +55,33 @@ pipeline {
 
 ## Background
 
-The build in [Specific Build Discarder](https://github.com/jenkinsci/jenkins/blob/449c5aced523a6e66fe3d6a804e5dbfd5c5c67c6/core/src/main/java/jenkins/model/SimpleGlobalBuildDiscarderStrategy.java)
-discards build independent of specific job discarders.
+The built in [Specific Build Discarder](https://github.com/jenkinsci/jenkins/blob/449c5aced523a6e66fe3d6a804e5dbfd5c5c67c6/core/src/main/java/jenkins/model/SimpleGlobalBuildDiscarderStrategy.java) discards builds independent of specific job discarders.
+
+This discarder will not discard any builds if there's a job specific discarder specified.
+To goal is to be able provide as sensible default that can be overriden on job level when needed.
 
 ## Contributing
 
+This plugin is probably close to done but if you have an idea, please open an issue so we can
+discuss the extension.
+
 See the default [contribution guidelines](https://github.com/jenkinsci/.github/blob/master/CONTRIBUTING.md) for Jenkins
 
-### Local development
+## Local development
 
 Start Jenkins by running this command
 
 ```bash
 mvn hpi:run
 ```
+
+## Release management
+
+The releases is automated via the the github action, using the [JEP-229: Continuous Delivery of Jenkins Components and Plugins](https://github.com/jenkinsci/jep/blob/master/jep/229/README.adoc) flow.
+
+### Supported versions of Jenkins
+
+We're trying to support the last two LTS versions of Jenkins, see the [offical documentation](https://www.jenkins.io/doc/developer/plugin-development/choosing-jenkins-baseline/) for further details.
+
+Upgrading is done by changing the jenkins version with the matching [bom](https://github.com/jenkinsci/bom). See this [example](https://github.com/jenkinsci/build-discarder-plugin/pull/32/files#diff-9c5fb3d1b7e3b0f54bc5c4182965c4fe1f9023d449017cece3005d3f90e8e4d8R17-R28) for how to update
+the version.
