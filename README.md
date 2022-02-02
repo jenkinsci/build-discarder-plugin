@@ -24,7 +24,7 @@ The `Default Build Discarder` can be added here:
 
 Add `defaultBuildDiscarder` to your `configuredBuildDiscarders` with the standard `logRotator` settings.
 
-```xml
+```yml
 unclassified:
   buildDiscarders:
     configuredBuildDiscarders:
