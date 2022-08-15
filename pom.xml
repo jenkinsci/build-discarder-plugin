@@ -14,7 +14,7 @@
   <packaging>hpi</packaging>
   <properties>
     <changelist>999999-SNAPSHOT</changelist>
-    <jenkins.version>2.303.1</jenkins.version>
+    <jenkins.version>2.346.1</jenkins.version>
     <java.level>8</java.level>
   </properties>
   <name>Build Discarder Plugin</name>
@@ -24,8 +24,8 @@
     <dependencies>
       <dependency>
         <groupId>io.jenkins.tools.bom</groupId>
-        <artifactId>bom-2.303.x</artifactId>
-        <version>1500.ve4d05cd32975</version>
+        <artifactId>bom-2.346.x</artifactId>
+        <version>1584.v20d6c07b_b_3a_9</version>
         <scope>import</scope>
         <type>pom</type>
       </dependency>
