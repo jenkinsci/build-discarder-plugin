@@ -17,3 +17,5 @@ work
 # mvn
 pom.xml.releaseBackup
 release.properties
+
+.DS_Store

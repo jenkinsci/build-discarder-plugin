@@ -9,8 +9,7 @@
 ## Introduction
 
 A global build discarder that's possible to override by adding a job
-specific discarder. The goal is to be able to have a global sensible default, that's possible to override if needed. The minimum supported version of Jenkins is `2.303.1`, the goal is to support
-the two latest versions of Jenkins LTS.
+specific discarder. The goal is to be able to have a global sensible default, that's possible to override if needed. The minimum supported version of Jenkins is `2.346.1`, the goal is to support the two latest versions of Jenkins LTS.
 
 ## Getting started
 
