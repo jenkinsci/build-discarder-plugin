@@ -18,8 +18,6 @@
     <java.level>8</java.level>
   </properties>
   <name>Build Discarder Plugin</name>
-  <description>Adds a global build discarder that's possible to override with a project specific discarder.
-  </description>
   <dependencyManagement>
     <dependencies>
       <dependency>
