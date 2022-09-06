@@ -15,7 +15,6 @@
   <properties>
     <changelist>999999-SNAPSHOT</changelist>
     <jenkins.version>2.346.1</jenkins.version>
-    <java.level>8</java.level>
   </properties>
   <name>Build Discarder Plugin</name>
   <dependencyManagement>
