@@ -5,7 +5,7 @@
   <parent>
     <groupId>org.jenkins-ci.plugins</groupId>
     <artifactId>plugin</artifactId>
-    <version>4.48</version>
+    <version>4.52</version>
     <relativePath />
   </parent>
   <groupId>io.jenkins.plugins</groupId>
@@ -14,15 +14,15 @@
   <packaging>hpi</packaging>
   <properties>
     <changelist>999999-SNAPSHOT</changelist>
-    <jenkins.version>2.346.1</jenkins.version>
+    <jenkins.version>2.361.1</jenkins.version>
   </properties>
   <name>Build Discarder Plugin</name>
   <dependencyManagement>
     <dependencies>
       <dependency>
         <groupId>io.jenkins.tools.bom</groupId>
-        <artifactId>bom-2.346.x</artifactId>
-        <version>1607.va_c1576527071</version>
+        <artifactId>bom-2.361.x</artifactId>
+        <version>1723.vcb_9fee52c9fc</version>
         <scope>import</scope>
         <type>pom</type>
       </dependency>
