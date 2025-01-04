@@ -5,8 +5,8 @@
   <parent>
     <groupId>org.jenkins-ci.plugins</groupId>
     <artifactId>plugin</artifactId>
-    <version>4.48</version>
-    <relativePath />
+    <version>4.88</version>
+    <relativePath/>
   </parent>
   <groupId>io.jenkins.plugins</groupId>
   <artifactId>build-discarder</artifactId>
@@ -14,22 +14,24 @@
   <packaging>hpi</packaging>
   <properties>
     <changelist>999999-SNAPSHOT</changelist>
-    <jenkins.version>2.346.1</jenkins.version>
+    <!-- https://www.jenkins.io/doc/developer/plugin-development/choosing-jenkins-baseline/ -->
+    <jenkins.baseline>2.452</jenkins.baseline>
+    <jenkins.version>${jenkins.baseline}.4</jenkins.version>
   </properties>
   <name>Build Discarder Plugin</name>
   <dependencyManagement>
     <dependencies>
       <dependency>
         <groupId>io.jenkins.tools.bom</groupId>
-        <artifactId>bom-2.346.x</artifactId>
-        <version>1607.va_c1576527071</version>
+        <artifactId>bom-${jenkins.baseline}.x</artifactId>
+        <version>3875.v1df09947cde6</version>
         <scope>import</scope>
         <type>pom</type>
       </dependency>
     </dependencies>
   </dependencyManagement>
   <scm>
-    <connection>scm:git:git://github.com/jenkinsci/build-discarder-plugin.git</connection>
+    <connection>scm:git:https://github.com/jenkinsci/build-discarder-plugin.git</connection>
     <developerConnection>scm:git:git@github.com:jenkinsci/build-discarder-plugin.git</developerConnection>
     <url>https://github.com/jenkinsci/build-discarder-plugin</url>
     <tag>${scmTag}</tag>
